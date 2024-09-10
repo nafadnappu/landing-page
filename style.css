@@ -1,0 +1,48 @@
+body{
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+body h1{
+    color: rgb(15, 245, 176);
+}
+
+body h2{
+    color: white;
+    font-size: 50px;
+}
+
+body h3{
+    color: white;
+    margin-bottom: 40px;
+}
+
+body img{
+    height: 400px;
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 470px;
+    border-radius: 40px;
+    outline: 0;
+    box-shadow: 0 0 25px rgba(9, 212, 165, 0.577);
+}
+
+body .next{
+    width: 120px;
+    height: 25px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: 25px;
+}
+
+.gradient{
+    background: linear-gradient(90deg, rgb(32, 160, 235), rgb(227, 53, 218), rgb(23, 209, 113));
+    color: transparent;
+    background-clip: text;
+}
